@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Young Serif', serif;
+}
+
+.container{
+    padding: 10px;
+}
+
+.header_section{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
+
+.header_section_menu span,.body_section_desc,.body_section_button{
+    font-weight: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body_section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body_section_item_list{
+    width: 200px;
+    display:inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.body_section_item_list img{
+    height: 300px;
+    width: 200px;
+}
+
+.body_section_button{
+    background-color: black;
+    color:white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer_section{
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer_section_header{
+    text-align: center;
+}
+
+.footer_section_contact{
+    text-align: center;
+}
+
+.footer_section_label{
+    text-align: left;
+}
+
+.footer_section__submit{
+    background-color: yellow;
+    padding: 5px;
+    width: 100%;
+}
+
+.footer_section_contact table{
+    display: inline-block;
+}
+
